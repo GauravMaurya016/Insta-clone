@@ -11,7 +11,7 @@ function App() {
     formState: { errors, isSubmitting },
   } = useForm();
   const onSubmit = async (data) => {
-    let a = await fetch("http://localhost:3000/", {
+    let a = await fetch("https://clone-virid-six.vercel.app/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
